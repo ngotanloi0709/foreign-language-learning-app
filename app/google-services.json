@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993751055481",
+    "project_id": "language-learning-app-29c97",
+    "storage_bucket": "language-learning-app-29c97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993751055481:android:e7942e9ce57f735ae528a8",
+        "android_client_info": {
+          "package_name": "com.ngtnl1.foreign_language_learning_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6AE-oeA_SdicQE55G674Suhz9hLpPDLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

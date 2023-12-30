@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EngStudy</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="make_selection">CONFIRM</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_otp">ENTER OTP</string>
+    <string name="enter_otpsended">ENTER OTP SENDED TO YOUR DEVICE</string>
+    <string name="Resend">RESEND</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="newPassword">Enter new password</string>
+    <string name="confirmPassword">Confirm new password</string>
+    <string name="confirm">CONFIRM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menuItemNavigationHomepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Tra cứu từ vựng" />
+        <item
+            android:id="@+id/menuItemNavigationNotedWords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Từ vựng đã đánh dấu" />
+        <item
+            android:id="@+id/menuItemNavigationProfileManagement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Hồ sơ cá nhân" />
+    </group>
+
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <item
+            android:id="@+id/menuItemNavigationLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Đăng nhập" />
+        <item
+            android:id="@+id/menuItemNavigationLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="Đăng xuất" />
+    </group>
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutItemTopic"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewItemTopicName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên chủ đề"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewItemTopicIsPublic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trạng thái của chủ đề" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewItemTopicOwner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chủ sở hữu"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewItemTopicDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mô tả"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textViewItemTopicView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lượt truy cập"
+        android:textSize="18sp" />
+
+</LinearLayout>
