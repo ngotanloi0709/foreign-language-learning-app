@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageViewItemFolderIcon"
+        android:layout_width="159dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_folder"
+        app:tint="#777272" />
+
+    <TextView
+        android:id="@+id/textViewItemFolderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Tên thư mục"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
