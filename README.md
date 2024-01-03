@@ -36,11 +36,13 @@ This project is made as the Final Report for the  course "Mobile Apps Developmen
 This project requires below technologies to implement:
 - Android Studio 2022.3.1
 - SDK 34 (min SDK 24)
+- 
 ## __Setup__
 - Clone this repository
 - Open the repository through Android Studio
 - Run the project with Device with Android version above 7.0
 ## __Optional__
+
 - Lombok
 - Glide
 
